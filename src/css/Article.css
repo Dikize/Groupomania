@@ -1,0 +1,78 @@
+.container-article {
+  background-color: #161623;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-article-form {
+  background: #59a3e6ab;
+  -webkit-box-shadow: -20px 18px 0px 0px rgba(0, 0, 0, 0.24);
+          box-shadow: -20px 18px 0px 0px rgba(0, 0, 0, 0.24);
+}
+
+.container-article-form .icon-camera {
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.container-article-form .form {
+  -webkit-box-shadow: -20px 20px 0px -6px rgba(0, 0, 0, 0.2);
+          box-shadow: -20px 20px 0px -6px rgba(0, 0, 0, 0.2);
+}
+
+.modal-container .modal-item-container {
+  background: radial-gradient(circle, #b9e5f5 3%, #94bbe9 31%, #e1aeee 94%);
+  width: 50%;
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.modal-container .modal-item-container .textFiel-article {
+  width: 100%;
+}
+
+.container-card-article {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 3rem;
+  height: auto;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -webkit-box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2) !important;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  opacity: .7;
+}
+
+.container-card-article .img-Article {
+  max-width: 100%;
+  height: 425px;
+}
+
+.container-card-article .container-card-icon .expand {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.container-card-article .container-card-icon .expandOpen {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+@media (min-width: 341px) {
+  .comment-form-btn {
+    margin-top: 0px !important;
+  }
+}

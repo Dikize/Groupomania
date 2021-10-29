@@ -1,0 +1,70 @@
+.container-profile {
+  background-image: url(../../style/assets/img/wallper.jpg);
+  background-size: 130% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-top: 150px;
+}
+
+.container-profile section .card-profile {
+  background: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+}
+
+.container-profile section .card-profile h3 {
+  margin-top: 150px;
+}
+
+.container-profile section .card-profile .card-profile-image {
+  position: relative;
+}
+
+.container-profile section .card-profile .card-profile-image img {
+  max-width: 180px;
+  height: 180px;
+  border-radius: 0.25rem;
+  -webkit-transform: translate(-50%, -48%);
+          transform: translate(-50%, -48%);
+  position: absolute;
+  left: 50%;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.container-profile section .card-profile .card-profile-image img:hover {
+  -webkit-transform: translate(-50%, -53%);
+          transform: translate(-50%, -53%);
+}
+
+.container-profile section .fas .fa-user {
+  font-size: x-large;
+  margin-bottom: 2px;
+}
+
+.container-update-profil {
+  -webkit-box-shadow: -7px 11px 34px 15px rgba(0, 0, 0, 0.24);
+          box-shadow: -7px 11px 34px 15px rgba(0, 0, 0, 0.24);
+}
+
+.container-update-profil form .form-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 20%;
+      grid-template-columns: 60% 20%;
+  -ms-grid-rows: 80px 65px;
+      grid-template-rows: 80px 65px;
+}
+
+.container-update-profil form .form-item .btn {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}

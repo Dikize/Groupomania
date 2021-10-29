@@ -1,0 +1,155 @@
+.container-signUp,
+.container-login {
+  background: linear-gradient(45deg, #FC466B, #3F5EFB);
+  height: 100vh;
+}
+
+.container-signUp .signUp,
+.container-signUp .login,
+.container-login .signUp,
+.container-login .login {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 3rem;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -webkit-box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+          box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  opacity: .7;
+}
+
+.container-signUp .signUp h2,
+.container-signUp .login h2,
+.container-login .signUp h2,
+.container-login .login h2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 400;
+}
+
+.container-signUp .signUp input,
+.container-signUp .signUp Button,
+.container-signUp .login input,
+.container-signUp .login Button,
+.container-login .signUp input,
+.container-login .signUp Button,
+.container-login .login input,
+.container-login .login Button {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  width: 200px;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  -webkit-box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-bottom: 2em;
+}
+
+.container-signUp .signUp input[type="text"]:focus, .container-signUp .signUp input[type="email"]:focus, .container-signUp .signUp input[type="password"]:focus,
+.container-signUp .signUp Button[type="text"]:focus,
+.container-signUp .signUp Button[type="email"]:focus,
+.container-signUp .signUp Button[type="password"]:focus,
+.container-signUp .login input[type="text"]:focus,
+.container-signUp .login input[type="email"]:focus,
+.container-signUp .login input[type="password"]:focus,
+.container-signUp .login Button[type="text"]:focus,
+.container-signUp .login Button[type="email"]:focus,
+.container-signUp .login Button[type="password"]:focus,
+.container-login .signUp input[type="text"]:focus,
+.container-login .signUp input[type="email"]:focus,
+.container-login .signUp input[type="password"]:focus,
+.container-login .signUp Button[type="text"]:focus,
+.container-login .signUp Button[type="email"]:focus,
+.container-login .signUp Button[type="password"]:focus,
+.container-login .login input[type="text"]:focus,
+.container-login .login input[type="email"]:focus,
+.container-login .login input[type="password"]:focus,
+.container-login .login Button[type="text"]:focus,
+.container-login .login Button[type="email"]:focus,
+.container-login .login Button[type="password"]:focus {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-signUp .signUp input[type="submit"],
+.container-signUp .signUp Button[type="submit"],
+.container-signUp .login input[type="submit"],
+.container-signUp .login Button[type="submit"],
+.container-login .signUp input[type="submit"],
+.container-login .signUp Button[type="submit"],
+.container-login .login input[type="submit"],
+.container-login .login Button[type="submit"] {
+  width: 150px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.container-signUp .signUp input::-webkit-input-placeholder,
+.container-signUp .signUp Button::-webkit-input-placeholder,
+.container-signUp .login input::-webkit-input-placeholder,
+.container-signUp .login Button::-webkit-input-placeholder,
+.container-login .signUp input::-webkit-input-placeholder,
+.container-login .signUp Button::-webkit-input-placeholder,
+.container-login .login input::-webkit-input-placeholder,
+.container-login .login Button::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.container-signUp .signUp input:-ms-input-placeholder,
+.container-signUp .signUp Button:-ms-input-placeholder,
+.container-signUp .login input:-ms-input-placeholder,
+.container-signUp .login Button:-ms-input-placeholder,
+.container-login .signUp input:-ms-input-placeholder,
+.container-login .signUp Button:-ms-input-placeholder,
+.container-login .login input:-ms-input-placeholder,
+.container-login .login Button:-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-signUp .signUp input::-ms-input-placeholder,
+.container-signUp .signUp Button::-ms-input-placeholder,
+.container-signUp .login input::-ms-input-placeholder,
+.container-signUp .login Button::-ms-input-placeholder,
+.container-login .signUp input::-ms-input-placeholder,
+.container-login .signUp Button::-ms-input-placeholder,
+.container-login .login input::-ms-input-placeholder,
+.container-login .login Button::-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-signUp .signUp input::placeholder,
+.container-signUp .signUp Button::placeholder,
+.container-signUp .login input::placeholder,
+.container-signUp .login Button::placeholder,
+.container-login .signUp input::placeholder,
+.container-login .signUp Button::placeholder,
+.container-login .login input::placeholder,
+.container-login .login Button::placeholder {
+  color: #fff;
+}
+
+.container-signUp {
+  height: auto;
+}
+
+.errors {
+  color: red;
+  font-weight: bold;
+}
